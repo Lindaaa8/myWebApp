@@ -1,0 +1,53 @@
+$mobile: 3px;
+
+@media(min-width:$mobile) {
+    .header{
+        position: relative;
+    }
+    nav{
+        width: 100%;
+        height: 118px;
+        left: 0px;
+        top: 0px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #219653;
+        figure{
+            #logo{
+                position: absolute;
+                width: 21%;
+                height: 330%;
+                object-fit: fill;
+                left: 80px;
+                top: -105%;
+                backdrop-filter: blur(4px);
+            }
+        }
+        :link{
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 45px;
+            text-decoration: none;
+        }
+        #work{
+            color: white;
+            position: absolute;
+            left: 74.07%;
+            right: 14.44%;
+            top: 44.92%;
+            bottom: 16.95%;
+        }
+        #about{
+            color: white;
+            position: absolute;
+            left: 89.17%;
+            right: 4.51%;
+            top: 44.92%;
+            bottom: 16.95%;
+        }
+    }
+}

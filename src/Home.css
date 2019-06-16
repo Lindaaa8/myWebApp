@@ -1,0 +1,106 @@
+section {
+  position: absolute;
+  width: 544px;
+  height: 479px;
+  left: 96px;
+  top: 176px;
+}
+
+section h1 {
+  position: absolute;
+  left: 6.07%;
+  right: 7.9%;
+  top: 0.42%;
+  bottom: 85.39%;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000;
+}
+
+section .content {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+}
+
+section .bold {
+  font-style: bold;
+}
+
+section h1 {
+  position: absolute;
+  left: 6.07%;
+  right: 7.9%;
+  top: 0.42%;
+  bottom: 85.39%;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000;
+}
+
+section span {
+  position: absolute;
+  left: 6.07%;
+  right: 3.49%;
+  top: 32.72%;
+  bottom: 54.7%;
+  font-size: 36px;
+  line-height: 49px;
+  color: #4F4F4F;
+}
+
+section p {
+  position: absolute;
+  left: 6.07%;
+  right: 7.9%;
+  top: 51.77%;
+  bottom: 13.57%;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+}
+
+section figure {
+  position: absolute;
+  left: 664px;
+  top: 48px;
+  mix-blend-mode: darken;
+}
+
+section figure #selfie {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 468px;
+  height: 503px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.album {
+  position: absolute;
+  left: 54px;
+  top: 801px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.album .pics {
+  -o-object-fit: polyfill;
+     object-fit: polyfill;
+  width: 10%;
+  height: 80px;
+  margin: 10px 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: 4px whitesmoke solid;
+}
+/*# sourceMappingURL=Home.css.map */

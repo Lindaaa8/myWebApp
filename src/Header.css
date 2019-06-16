@@ -1,0 +1,52 @@
+@media (min-width: 3px) {
+  div {
+    position: relative;
+  }
+  nav {
+    width: 100%;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #219653;
+  }
+  nav figure #logo {
+    position: absolute;
+    width: 21%;
+    height: 330%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    left: 80px;
+    top: -105%;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+  nav :link {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration: none;
+  }
+  nav #work {
+    color: white;
+    position: absolute;
+    left: 74.07%;
+    right: 14.44%;
+    top: 44.92%;
+    bottom: 16.95%;
+  }
+  nav #about {
+    color: white;
+    position: absolute;
+    left: 89.17%;
+    right: 4.51%;
+    top: 44.92%;
+    bottom: 16.95%;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
